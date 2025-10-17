@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "nome": "CEO_A1_G2", "tipo": "CEO", "status": "ativo" },
+      "geometry": { "type": "Point", "coordinates": [-46.860629, -23.431637] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nome": "A1_G2_C2", "tipo": "CTO", "status": "ativo" },
+      "geometry": { "type": "Point", "coordinates": [-46.860172, -23.432514] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nome": "A1_G3_C13", "tipo": "CTO", "status": "ativo" },
+      "geometry": { "type": "Point", "coordinates": [-46.860798, -23.430723] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nome": "Fibra CEO->A1_G2_C2", "tipo": "Fibra", "status": "ok" },
+      "geometry": { "type": "LineString", "coordinates": [[-46.860629, -23.431637], [-46.860172, -23.432514]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nome": "Fibra CEO->A1_G3_C13", "tipo": "Fibra", "status": "ok" },
+      "geometry": { "type": "LineString", "coordinates": [[-46.860629, -23.431637], [-46.860798, -23.430723]] }
+    }
+  ]
+}
